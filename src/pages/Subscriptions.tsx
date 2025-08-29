@@ -7,6 +7,7 @@ import { Repository } from '../services/repositoryService';
 
 const { Title, Paragraph } = Typography;
 
+
 const Subscriptions: React.FC = () => {
   const [subscriptions, setSubscriptions] = useState<Subscription[]>([]);
   const [loading, setLoading] = useState(true);
